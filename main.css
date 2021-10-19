@@ -85,8 +85,14 @@ body {
     opacity: 65%;
 }
 
+.spiel1 {
+    text-align: justify;
+    line-height: 28pt;
+}
+
 .ingredients {
     text-align: center;
+    line-height: 28pt;
 }
 
 .instructions {
