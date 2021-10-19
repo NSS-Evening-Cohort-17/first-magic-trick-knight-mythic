@@ -1,0 +1,89 @@
+body{
+    background-image: url("/images/main-page-bg.jpg");
+    background-size: cover;
+    margin: 30px;
+    padding: 0;
+    width: auto; /* full window width */
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-header {
+    font-size: 22pt;
+    text-align: center;
+    padding: 0.3em;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-family: 'Scheherazade New', sans-serif;
+    opacity: 65%;
+    background-color: #9f9fd1;
+}
+
+.nav-bar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.baking-tips{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Scheherazade New', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.welcome-section{
+    margin: 20px;
+    font-family: 'Scheherazade New', sans-serif;
+    font-size: 17px;
+}
+
+.baking-images{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#pic1--img{
+    height: 270px;
+}
+#pic2--img{
+    height: 270px;
+}#pic3--img{
+    height: 270px;
+}#pic4--img{
+    height: 270px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+    margin: -0.8em;
+    padding: 0.15em;
+    background-color: #9f9fd1;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 85%;
+}
+
+.tips-header{
+    font-size: 18pt;
+    text-align: center;
+    padding: 0.3em;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-family: 'Scheherazade New', sans-serif;
+    opacity: 65%;
+    background-color: #9f9fd1;
+}
+
+.pic-credit{
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+}
