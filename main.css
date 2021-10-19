@@ -1,6 +1,7 @@
 body {
     background-color: #9f9fd1;
     width: auto;
+    height: auto;
 
 }
 
@@ -110,7 +111,7 @@ body {
 
 .instructions {
     font-size: 15pt;
-    height: 200px;
+    height: 150px;
     overflow: scroll;
     font-family: 'Scheherazade New', sans-serif;
     width: auto;
