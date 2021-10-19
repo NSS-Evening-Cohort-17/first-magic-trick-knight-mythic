@@ -1,5 +1,6 @@
 body {
     background-color: #9f9fd1;
+    width: auto;
 
 }
 
@@ -99,9 +100,27 @@ body {
     margin-right: 10px;
 }
 
+.abtme {
+    text-align:center;
+    font-size: 15pt;
+    margin-top: -1px;
+    margin: -1px;
+    background-color: #CFCFEA;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 65%;
+}
+
 
 
 #bestmac--img {
     padding: 0.1em;
     margin: 30px;
+}
+
+#me--img {
+    padding: 0.1em;
+    margin: 30px;
+    height: 300px;
+    width: 300px;
 }
