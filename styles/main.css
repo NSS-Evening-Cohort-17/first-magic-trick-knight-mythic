@@ -1,0 +1,39 @@
+.sonny {
+    height: 200px;
+}
+body {
+    background-color: darkolivegreen;
+}
+
+.food {
+    height: 200px;
+    display: flex;
+    float: left;
+    
+}
+
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px;
+    font-style: italic;
+    
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+
+
