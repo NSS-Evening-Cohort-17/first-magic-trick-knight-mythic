@@ -19,14 +19,6 @@ body{
     background-color: #9f9fd1;
 }
 
-.nav-bar{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .baking-tips{
     margin: 20px;
     text-align: center;
