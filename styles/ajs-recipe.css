@@ -4,13 +4,11 @@ body{
     width: 100%; /* full window width */
     justify-content: space-evenly;
     flex-direction: column;
-    margin: 5px;
-    padding: 5px;
 }
 .nav-bar{
     /* settings for nav bar*/
-    margin: 5px;
-    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -18,30 +16,25 @@ body{
 
 .main-page{
     /* settings for main part of page*/
-    margin: 5px;
     padding: 5px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .personal-main{
-    margin: 3px;
-    padding: 3px;
     float: right;
+    padding: 20px;
     width:25%;
 }
 
 .recipe-main{
     /*left side of page*/
     width: 75%;
-    margin: 5px;
-    padding: 5px;
 }
 
 .recipe-steps{
     flex-wrap: row;
-    margin: 2px;
-    padding: 2px;
+    padding: 25px;
 }
 
 .main-header{
