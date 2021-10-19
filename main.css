@@ -22,6 +22,18 @@ body {
     opacity: 85%;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+    margin: -0.8em;
+    padding: 0.15em;
+    background-color: #bbbbe2;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 85%;
+}
+
 .madiRecipe {
     font-size: 22pt;
     text-align: center;
@@ -88,6 +100,7 @@ body {
 .spiel1 {
     text-align: justify;
     line-height: 28pt;
+    padding: 0.5em;
 }
 
 .ingredients {
@@ -100,8 +113,8 @@ body {
     height: 200px;
     overflow: scroll;
     font-family: 'Scheherazade New', sans-serif;
-    opacity: 65%;
     width: auto;
+    padding: 0.1em;
     margin-left: 10px;
     margin-right: 10px;
 }
