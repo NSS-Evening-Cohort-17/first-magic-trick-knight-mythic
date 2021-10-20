@@ -1,0 +1,154 @@
+body {
+    background-color: #9f9fd1;
+    width: auto;
+    height: auto;
+
+}
+
+#app {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Scheherazade New', sans-serif;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+    margin: -0.8em;
+    padding: 0.15em;
+    background-color: #bbbbe2;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 85%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    font-size: 13pt;
+    margin: -0.8em;
+    padding: 0.15em;
+    background-color: #bbbbe2;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 85%;
+}
+
+.madiRecipe {
+    font-size: 22pt;
+    text-align: center;
+    padding: 0.3em;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-family: 'Scheherazade New', sans-serif;
+    opacity: 65%;
+    background-color: #CFCFEA;
+}
+
+.leftSide, .rightSide {
+    font-size: 15pt;
+    text-align: center;
+    padding: 0.3em;
+    overflow: scroll;
+    height: 380px;
+}
+
+.leftSide {
+    flex: 2 5px;
+    border-right: 1px solid black;
+}
+
+.rightSide {
+    flex: 1 5px;
+    border-left: 1px solid black;
+}
+
+.instro {
+    text-align:center;
+    font-size: 15pt;
+    margin-top: 0;
+    margin: 0;
+    background-color: #CFCFEA;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 65%;
+    width: auto;
+}
+
+.ultimatemac {
+    text-align:center;
+    font-size: 15pt;
+    margin-top: -1px;
+    margin: -1px;
+    background-color: #CFCFEA;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 65%;
+}
+
+.ingredientsheader {
+    text-align:center;
+    font-size: 15pt;
+    margin-top: -1px;
+    margin: -1px;
+    background-color: #CFCFEA;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 65%;
+}
+
+.spiel1 {
+    text-align: justify;
+    line-height: 28pt;
+    padding: 0.5em;
+}
+
+.ingredients {
+    text-align: center;
+    line-height: 28pt;
+}
+
+.instructions {
+    font-size: 15pt;
+    height: 150px;
+    overflow: scroll;
+    font-family: 'Scheherazade New', sans-serif;
+    width: auto;
+    padding: 0.1em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.abtme {
+    text-align:center;
+    font-size: 15pt;
+    margin-top: -1px;
+    margin: -1px;
+    background-color: #CFCFEA;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 65%;
+}
+
+
+
+#bestmac--img {
+    padding: 0.1em;
+    margin: 30px;
+}
+
+#me--img {
+    padding: 0.1em;
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
