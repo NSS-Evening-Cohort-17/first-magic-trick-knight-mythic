@@ -1,0 +1,100 @@
+.sonny {
+    height: 200px;
+}
+body {
+    background-color: darkolivegreen;
+}
+
+.food {
+    height: 200px;
+    display: flex;
+    
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12pt;
+    margin: -0.8em;
+    padding: 0.15em;
+    background-color: #9f9fd1;
+    font-family: 'Scheherazade New', sans-serif;
+    border: 1px solid black;
+    opacity: 85%;
+    
+
+}
+
+aside {
+    
+    
+}
+
+.notes > aside > p {
+    margin: .5rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.alsoDetails {
+    text-align: center;
+}
+
+.order {
+    font-size: 20px;
+    flex-flow: row;
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-right: 10px;
+    padding-right: 10px;
+    
+}
+
+.order1, .order2, .order3 {
+    transition: .7s;
+    display: flex;
+    align-content: space-between;
+    border: 2px solid black;
+}
+
+.order1 {
+    padding-left: 10px;
+}
+
+.ingred {
+    flex-flow: row;
+    display: flex;
+    gap: 10px 20px; 
+    row-gap: 10px;
+    column-gap: 20px;
+    align-content: space-between;
+}
+
+.notes {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px;
+    font-style: italic;
+
+}
+
+.unorder {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 30px;
+   padding-top: 10px;
+}
