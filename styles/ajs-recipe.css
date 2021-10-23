@@ -37,15 +37,18 @@ body{
 .recipe-main{
     /*left side of page*/
     width: 75%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .recipe-steps{
     flex-wrap: row;
     padding: 25px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .personal-story{
     font-size: 16px;
+    font-family: 'Oswald', sans-serif;
 }
 
 .recipe1{
@@ -72,24 +75,28 @@ body{
 
 .steps-header{
     text-align: center;
-    font-size: 23px;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
 }
 
 .aside-header{
     text-align: center;
-    font-size: 19px;
+    font-size: 22px;
+    font-family: 'Caveat', cursive;
 }
 
 .recipe-header{
     text-align: center;
-    font-size: 23px;
+    font-size: 26px;
+    font-family: 'Caveat', cursive;
 }
 
 .recipe-title{
     text-align: center;
     font-style: italic;
-    font-size: 16px;
+    font-size: 40px;
     color: #b6a7a5;
+    font-family: 'Caveat', cursive;
 }
 
 .cake-block{
